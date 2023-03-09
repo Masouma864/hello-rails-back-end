@@ -30,7 +30,8 @@
 
 # 📖 hello-rails-react <a name="about-project"></a>
 
-**hello-rails-react** is a simple project for learning how to use react as frontend and rails as backend.
+**[Hello Rails Back End]** is a back-end for [Hello React Front End App](https://github.com/Masouma864/hello_react-frontend.git).
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -92,11 +93,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/Masouma864/hello-rails-react.git`
+`git clone https://github.com/Masouma864/hello-rails-back-end.git`
 
 then
 
-`cd hello-world`
+`cd hello-rails-react`
 
 ### Install
 
@@ -104,7 +105,20 @@ Install this project with:
 
 `bundle install`
 
+This will download and install all the required gems for the project.
+Next, you'll need to set up the database for the project. Run the following commands to create the database and run the migrations:
+
+```sh
+  rails db:create db:migrate
+```
+To load seed data into the database run the following command:
+
+```sh
+  rails db:seed
+```
+
 ### Usage
+Finally, you can start the Rails server by running the following command:
 
 `rails server`
 
