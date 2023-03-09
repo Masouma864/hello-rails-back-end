@@ -19,6 +19,8 @@ gem "puma", "~> 5.0"
 gem "importmap-rails"
 
 gem 'pg'
+
+gem 'rack-cors'
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
